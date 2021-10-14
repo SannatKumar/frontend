@@ -1,24 +1,18 @@
 import './App.css';
-import PostNewEvent from './components/PostNewEvent';
-import useBookEvent from './custom_hooks/useBookEvent';
-import Header from './components/Header';
-import Table from './components/Table';
-import Footer from './components/Footer';
-
-
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import View from './components/View';
+import PostView from './components/Postview';
 
 function App (){
-  //const {data} = useEvent();
-  const {dataBook} = useBookEvent();
-  console.log(dataBook);
-
-    return(
-        <>
-        <Header/>
-        <Table />
-        <PostNewEvent />
-        <Footer />
-        </>
+  return(
+    <div>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path='/' component = {View} />
+        <Route exact path='/postView' component = {PostView} />
+      </Switch>
+      </BrowserRouter>
+    </div>
     )
 }
 export default App;

@@ -6,14 +6,14 @@ const TableHeader = () => {
         <>
         <TableHead style={{width: "100%", height:"100px", background:"green"}}>
             <TableRow>
-                <TableCell align='center'>Id</TableCell>
-                <TableCell align='right'>Title</TableCell>
-                <TableCell align='right'>Author</TableCell>
-                <TableCell align='right'>Publication Year</TableCell>
-                <TableCell align='right'>Is Availbale</TableCell>
-                <TableCell align='right'>Calling Number</TableCell>
-                <TableCell lign="right">Edit</TableCell>
-                <TableCell lign="right">Delete</TableCell>
+                <TableCell align='center'>EventType</TableCell>
+                <TableCell align='right'>Folder</TableCell>
+                <TableCell align='right'>Filter</TableCell>
+                <TableCell align='right'>Actions</TableCell>
+                <TableCell align='right'>Properties</TableCell>
+                <TableCell align='right'>Query</TableCell>
+                <TableCell >Edit</TableCell>
+                <TableCell >Delete</TableCell>
             </TableRow>
         </TableHead>
         </>

@@ -1,11 +1,11 @@
 import {useState, useEffect} from 'react';
 
 //Custom Hooks to fetch the data
-const useBookEvent = () =>{
+const useDataEvent = () =>{
 
 const [error, setError] = useState(null);
 const [loading, setLoading]= useState(false);
-const [dataBook, setDataBook]= useState([]);   
+const [dataEvent, setDataEvent]= useState([]);   
 useEffect(()=>{
     async function init()
     {
@@ -15,7 +15,7 @@ useEffect(()=>{
             const res = await  fetch(BASEURL);
             const response = await res.json();
             console.log("This is After Conversion",response);
-            setDataBook(response);
+            setDataEvent(response);
         }
         catch(error)
         { 
@@ -31,6 +31,6 @@ useEffect(()=>{
 }, []);
 
 console.log("This is about to pass");
-return {dataBook, loading, error};
+return {dataEvent, loading, error};
 }
-export default useBookEvent;
+export default useDataEvent;

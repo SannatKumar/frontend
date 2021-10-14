@@ -11,7 +11,7 @@ function Header(){
         position: "fixed",
         left: "0",
         top : "0",
-        height: "60px",
+        height: "80px",
         width: "100%",
     }
     

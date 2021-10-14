@@ -1,20 +1,14 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.addNew{
+  height: 35px;
+  width: 70px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #282C34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,16 +17,42 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.postNewEvent{
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  padding: 20px;
+  height: 35px;
+  width: 100%;
+  background-color: #EDB204;
+}
 .App-link {
-  color: #61dafb;
+  color: #61DAFB;
+}
+.tableCss{
+  top: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.edit-buttons{
+  height: 30px;
+  width: 75px;
+  color: white;
+  font-size: medium;
+
 }
+
+#redButtons{
+  background-color: #D9534F;
+  }
+
+#blueButtons{
+  background-color: #337AB7;
+}
+
+.post-buttons{
+  height: 35px;
+  width: 125px;
+  background-color: #337AB7;
+  border-radius: 15px;
+}
+
