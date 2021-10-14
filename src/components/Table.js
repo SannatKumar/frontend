@@ -14,17 +14,16 @@ const useStyles = makeStyles({
 });
 
 export default function DenseTable(props) {
-  const dataBook = props.dataBook;
   const classes = useStyles();    
   return (
     
     <div className='table'>
-    <TableContainer component={Paper}>      
-      <Table className={classes.table} size="small" aria-label="a dense table">
-        <TableHeader />
-        <TableBody props= {dataBook} />
+      <TableContainer component={Paper}>      
+        <Table className={classes.table} size="small" aria-label="a dense table">
+          <TableHeader />
+          <TableBody  />
         </Table>
-    </TableContainer>
+      </TableContainer>
     </div>
   );
 }

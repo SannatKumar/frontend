@@ -21,19 +21,14 @@ function Header(){
       height: '60px',
       width: '100%',
     }
-    // var headerStyle = {
-    //     border: '2px',
-    //     backgroundColor: 'EDB204',
-    // }
-        return (
-            <div>
-                <div style={phantom} />
-                <div style={style}>
-                   <h1 > Aventra Config</h1>
-                </div>
+    return (
+        <div>
+            <div style={phantom} />
+            <div style={style}>
+               <h1 > Aventra Config</h1>
             </div>
-        )
-    
+        </div>
+    )     
 }
 export default Header;
 

@@ -12,6 +12,8 @@ const TableHeader = () => {
                 <TableCell align='right'>Publication Year</TableCell>
                 <TableCell align='right'>Is Availbale</TableCell>
                 <TableCell align='right'>Calling Number</TableCell>
+                <TableCell lign="right">Edit</TableCell>
+                <TableCell lign="right">Delete</TableCell>
             </TableRow>
         </TableHead>
         </>
