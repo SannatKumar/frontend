@@ -1,5 +1,5 @@
 import './App.css';
-//import useEvent from './useEvent';
+import PostNewEvent from './components/PostNewEvent';
 import useBookEvent from './custom_hooks/useBookEvent';
 import Header from './components/Header';
 import Table from './components/Table';
@@ -16,6 +16,7 @@ function App (){
         <>
         <Header/>
         <Table />
+        <PostNewEvent />
         <Footer />
         </>
     )
