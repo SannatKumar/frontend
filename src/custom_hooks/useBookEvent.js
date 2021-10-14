@@ -1,7 +1,6 @@
 import {useState, useEffect} from 'react';
 
-
-
+//Custom Hooks to fetch the data
 const useBookEvent = () =>{
 
 const [error, setError] = useState(null);
