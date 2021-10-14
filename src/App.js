@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import View from './components/View';
-import PostView from './components/Postview';
+import PostView from './components/PostView';
 
 function App (){
   return(

@@ -10,8 +10,8 @@ export default function TableBody() {
         <>
         {dataEvent.filter((singleEvent) => {
             return singleEvent;
-        }).map((item)=> (
-            <TableRow key= {item.id} style={{background:"#FDFAAB"}}>
+        }).map((item, index)=> (
+            <TableRow key= {index} style={{background:"#FDFAAB"}}>
                 <TableCell component="th" scope="row">
                     {item.monitorEvent}
                 </TableCell>

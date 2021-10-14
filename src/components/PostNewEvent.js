@@ -38,8 +38,8 @@ const PostNewEvent = () =>{
     fetch("https://localhost:44361/api/xmlcontent/content", requestOptions)
       .then(response => response.json())
       .then(res => console.log("Ole Hyva",res));
-      const url = "http://localhost:3000";
-      window.location.assign(url);
+      /*const url = "http://localhost:3000";
+      window.location.assign(url);*/
     };
       
     
